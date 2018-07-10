@@ -1,0 +1,20 @@
+$bg-color: #EDF2F2;
+$color: #fff;
+$background-color:#337ab7;
+$border-color: #2e6da4;
+$breadcrumBgColor:white;
+
+.researchCard {
+    background: $bg-color;
+}
+
+.btn-primary {
+    color: $color;
+    background-color: $background-color;
+    border-color: $border-color;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color:$breadcrumBgColor;
+}

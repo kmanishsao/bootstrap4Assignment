@@ -1,0 +1,20 @@
+body{
+    width:100vw;
+    flex-flow: column;
+}
+.HeaderTop{
+    display: flex;
+}
+.logo{
+   width:50vw;
+}
+
+img{
+    width:100vw;
+    height:10vh;
+}
+
+footer h4{
+    text-transform: uppercase;
+    font-size: 14px;
+}

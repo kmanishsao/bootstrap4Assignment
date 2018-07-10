@@ -1,0 +1,146 @@
+body{
+    width:100%;
+    flex-flow: column;
+    font-size:14px;
+    font-family:"Fira Sans,Helvetica,Arial,sans-serif";
+}
+.HeaderTop{
+    display: flex;
+    margin: auto;
+}
+.logo{
+  height:60px;
+  margin-top:10px;
+  margin-bottom:10px;
+
+}
+
+
+
+
+footer{
+    background-color:#58585b;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+footer h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding:0px;
+}
+
+footer ul{
+ list-style-type: none;
+ color:#f8f8f8;
+ margin-top:10px;
+ margin-left: 0px;
+ margin-right:0px;
+ padding-left:0px;
+}
+
+ul li a{
+    background-color:transparent;
+    color:#f8f8f8;
+}
+
+paddingtop-bottom{
+    padding: 15px 0 0 0;
+}
+
+.display-4{
+    justify-content: center;
+    text-align: center;
+}
+#researchers{
+    display: flex;
+    margin-top: 10px;;
+    padding:0;
+    flex-basis: auto;
+    justify-content: center;
+}
+
+.researchSummary{
+    padding: 0 20px 20px 0;
+    margin: 0 20px 20px 0;
+    width: 18rem;
+ 
+}
+
+#Institutemission{
+   margin-left: 10px;
+   margin-right: 10px;
+
+}
+
+#message{
+   margin-left: 10px;
+   margin-right: 10px; 
+}
+
+.headercss{
+    width:50vw;
+}
+
+.searchBox{
+text-align: right;
+width:50vw;
+justify-content: end;
+}
+
+.heroContent{
+    border: 0px grey solid;
+    width:98vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left:2px;
+    margin-right:10px;
+}
+
+.heroimage{
+    width:100%;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .HeaderTop{
+        display: block;
+        margin: auto;
+    }
+    .headercss{
+        width:100vw;
+ 
+    }
+    
+    .searchBox{
+        width:100%;
+ 
+        }
+        #researchers{
+            display: flex;
+            flex-direction: column;
+          
+        }
+        .researchSummary{
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+         
+        }
+        
+.heroContent{
+ 
+    border: 0px grey solid;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+        
+
+}
