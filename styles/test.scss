@@ -3,6 +3,7 @@ $color: #fff;
 $background-color:#337ab7;
 $border-color: #2e6da4;
 $breadcrumBgColor:white;
+$breadcrumTxtColor: #0275d8;
 
 .researchCard {
     background: $bg-color;
@@ -13,8 +14,12 @@ $breadcrumBgColor:white;
     background-color: $background-color;
     border-color: $border-color;
 }
-ul.breadcrumb {
+ol.breadcrumb {
     padding: 10px 16px;
     list-style: none;
     background-color:$breadcrumBgColor;
+}
+
+ol.breadcrumb li a {
+    color: $breadcrumTxtColor;
 }
